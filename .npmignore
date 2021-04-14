@@ -1,5 +1,7 @@
 **/*
+|.github
 !/dist/**/*
-!/svelte/**/*
+!/extra/**/*
+!*.d.ts
 !*.md
-!package*.json
+!*.json

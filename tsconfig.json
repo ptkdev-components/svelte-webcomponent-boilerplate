@@ -9,13 +9,12 @@
 		"esModuleInterop": true,
 		"noImplicitAny": false,
 		"noImplicitThis": true,
-		"declaration": true,
+		"declaration": false,
 		"strict": false,
 		"skipLibCheck": true,
 		"allowJs": true,
 		"types": ["svelte", "jest"],
 		"paths": {
-			"@webcomponent/*": ["./app/webcomponent/*"],
 			"@translations/*": ["./app/translations/*"],
 			"@configs/*": ["./app/configs/*"],
 			"@app/*": ["./app/*"]
