@@ -1,13 +1,15 @@
 /**
- * Svelte Init
+ * Delete dist folder
  * =====================
- * Create svelte app
  *
  * @contributors: Patryk Rzucidło [@ptkdev] <support@ptkdev.io> (https://ptk.dev)
  *
  * @license: MIT License
  *
  */
-import app from "@app/html/webcomponent.svelte";
+import * as shell from "shelljs";
+declare const __dirname: string;
 
-export default app;
+const path = `${__dirname}/../dist`;
+
+shell.rm("-Rf", path);
